@@ -1,0 +1,264 @@
+[
+    {
+        "name": "workerman/workerman-for-win",
+        "version": "v3.3.90",
+        "version_normalized": "3.3.90.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/workerman-for-win.git",
+            "reference": "64994323f7ba50ff34f2eabaa0a4fd39a9845d81"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/walkor/workerman-for-win/zipball/64994323f7ba50ff34f2eabaa0a4fd39a9845d81",
+            "reference": "64994323f7ba50ff34f2eabaa0a4fd39a9845d81",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2017-02-27 13:17:20",
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Workerman\\": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "walkor",
+                "email": "walkor@workerman.net",
+                "homepage": "http://www.workerman.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+        "homepage": "http://www.workerman.net",
+        "keywords": [
+            "asynchronous",
+            "event-loop"
+        ]
+    },
+    {
+        "name": "workerman/gateway-worker-for-win",
+        "version": "v3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/GatewayWorker-for-win.git",
+            "reference": "d97bfb58adee8a2de200ac5bd142a2c252793d0c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/walkor/GatewayWorker-for-win/zipball/d97bfb58adee8a2de200ac5bd142a2c252793d0c",
+            "reference": "d97bfb58adee8a2de200ac5bd142a2c252793d0c",
+            "shasum": ""
+        },
+        "require": {
+            "workerman/workerman-for-win": ">=3.1.8"
+        },
+        "time": "2017-03-04 10:24:56",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GatewayWorker\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "homepage": "http://www.workerman.net",
+        "keywords": [
+            "communication",
+            "distributed"
+        ]
+    },
+    {
+        "name": "curl/curl",
+        "version": "1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-mod/curl.git",
+            "reference": "213d0cc23a4a305f5d7a153d98f2db644a6ca909"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-mod/curl/zipball/213d0cc23a4a305f5d7a153d98f2db644a6ca909",
+            "reference": "213d0cc23a4a305f5d7a153d98f2db644a6ca909",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*",
+            "squizlabs/php_codesniffer": "~2.1"
+        },
+        "time": "2017-01-13 18:26:02",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Curl": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Hassan Amouhzi",
+                "email": "hassan@anezi.net",
+                "homepage": "http://hassan.amouhzi.com"
+            },
+            {
+                "name": "php-curl-class",
+                "homepage": "https://github.com/php-curl-class"
+            },
+            {
+                "name": "user52",
+                "homepage": "https://github.com/user52"
+            }
+        ],
+        "description": "cURL class for PHP",
+        "homepage": "https://github.com/php-mod/curl",
+        "keywords": [
+            "curl",
+            "dot"
+        ]
+    },
+    {
+        "name": "phootwork/lang",
+        "version": "v0.7",
+        "version_normalized": "0.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phootwork/lang.git",
+            "reference": "7410bbc56bb98cd47dcded81b7dfbfd3be311782"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phootwork/lang/zipball/7410bbc56bb98cd47dcded81b7dfbfd3be311782",
+            "reference": "7410bbc56bb98cd47dcded81b7dfbfd3be311782",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4"
+        },
+        "time": "2015-06-23 13:11:40",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "phootwork\\lang\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "(Missing) PHP features represented by objects"
+    },
+    {
+        "name": "phootwork/file",
+        "version": "v0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phootwork/file.git",
+            "reference": "98385567469a36cd37ae24e0d7f173e2c0787bec"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phootwork/file/zipball/98385567469a36cd37ae24e0d7f173e2c0787bec",
+            "reference": "98385567469a36cd37ae24e0d7f173e2c0787bec",
+            "shasum": ""
+        },
+        "require": {
+            "phootwork/lang": "~0",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "mikey179/vfsstream": "~1",
+            "phpunit/phpunit": "~4"
+        },
+        "time": "2016-04-21 15:06:11",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "phootwork\\file\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "File Operations for the local Filesystem",
+        "keywords": [
+            "file",
+            "filesystem"
+        ]
+    },
+    {
+        "name": "slim/pdo",
+        "version": "1.10.0",
+        "version_normalized": "1.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FaaPz/Slim-PDO.git",
+            "reference": "9424e6d5f3737a71722ab1f868c1d3090b63287d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FaaPz/Slim-PDO/zipball/9424e6d5f3737a71722ab1f868c1d3090b63287d",
+            "reference": "9424e6d5f3737a71722ab1f868c1d3090b63287d",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-14 11:42:49",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Slim\\PDO\\": "src/PDO/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabian de Laender",
+                "email": "fabian@faapz.nl",
+                "homepage": "http://faapz.nl",
+                "role": "Developer"
+            }
+        ],
+        "description": "PDO database library for Slim Framework",
+        "homepage": "https://github.com/FaaPz/Slim-PDO",
+        "keywords": [
+            "database",
+            "framework",
+            "pdo",
+            "slim"
+        ]
+    }
+]
